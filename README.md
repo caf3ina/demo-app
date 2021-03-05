@@ -21,6 +21,10 @@ curl https://raw.githubusercontent.com/deep-security/demo-app/master/demo-app.sh
 
 Since tomcat serves requests on port 8080 by default, the security group assigned to the newly created instances needs to allow incoming requests on port 8080.
 
+Open http://your-ip/demo-app
+
+For test Intrusion prevention module enable this rule in computer: 100052552 - Generic Cross Site Scripting (XSS) Prevention
+
 ## Support
 
 For bug reports or feature requests, please [open an issue](../issues). You are welcome to [contribute](#contribute).
